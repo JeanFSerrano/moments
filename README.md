@@ -1,6 +1,6 @@
 # Moments
 
-<h2>○ Plataforma para postagens de momentos que o usuário decidir compartilar na internet. </h2>
+<h2>○ Plataforma para postagens de momentos que o usuário decidir compartilhar na internet. </h2>
 
 ○ <strong>Páginal inicial com todos os momentos compartilhados na plataforma: </strong>
 
