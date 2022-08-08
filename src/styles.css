@@ -1,1 +1,119 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Roboto:wght@300;400;500&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all ease .4s;
+
+}
+
+a:hover {
+  color: #dec129;
+}
+
+body {
+  background-color: #666;
+  color: white
+}
+
+
+form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  outline: none;
+  border: none;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: .9rem;
+  margin-bottom: .4rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: .6rem;
+  color: #777;
+  font-size: .8rem;
+}
+
+input[type="submit"] {
+  background-color: #efefef;
+  border: 2px solid transparent;
+  padding: .6rem 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: .4s;
+}
+
+input[type="submit"]:hover {
+  color: #dec129;
+  border-color: #dec129;
+  background-color: transparent;
+}
+
+.error {
+  font-size: .9rem;
+  color: #850410;
+  font-weight: bold;
+}
+
+.edit-btn,
+.remove-btn {
+  border: 1px solid #efefef;
+  padding: 0.4em 1em;
+  font-size: 1em;
+  margin: 0 0.5em;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+button fa-icon,
+a fa-icon {
+  margin-right: 0.2em;
+}
+
+.edit-btn,
+.edit-btn path {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.edit-btn:hover,
+.edit-btn:hover path {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.remove-btn,
+.remove-btn path {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.remove-btn:hover,
+.remove-btn:hover path {
+  color: #fff;
+  background-color: #dc3545;
+}
