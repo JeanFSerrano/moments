@@ -2,7 +2,7 @@
 
 <h2>Plataforma para postagens de momentos que o usuário decidir compartilhar na internet. </h2>
 
-<strong>Páginal inicial com todos os momentos compartilhados na plataforma: </strong>
+○ <strong>Páginal inicial com todos os momentos compartilhados na plataforma: </strong>
 
 ![print1](https://user-images.githubusercontent.com/48140982/183530271-ee0dbc7f-a985-4092-96a7-f04ce675690b.PNG)
 
